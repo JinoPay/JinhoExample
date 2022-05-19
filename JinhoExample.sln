@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N02_SerilLog_File", "N02_Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N03_SeriLog_Filter", "N03_SeriLog_Filter\N03_SeriLog_Filter.csproj", "{07816D02-25AD-41E5-AA42-2AAB134B8F5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N04_SeriLog_Viewer", "N04_SeriLog_Viewer\N04_SeriLog_Viewer.csproj", "{5B26A9E8-9854-4AF0-9D7D-1F3960C50A8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B26A9E8-9854-4AF0-9D7D-1F3960C50A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B26A9E8-9854-4AF0-9D7D-1F3960C50A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B26A9E8-9854-4AF0-9D7D-1F3960C50A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B26A9E8-9854-4AF0-9D7D-1F3960C50A8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
