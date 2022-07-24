@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N01_SeriLog", "N01_SeriLog\N01_SeriLog.csproj", "{FFC35A4A-0148-4B55-8D2F-94D93D793A5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N01_SeriLog", "N01_SeriLog\N01_SeriLog.csproj", "{FFC35A4A-0148-4B55-8D2F-94D93D793A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N02_SerilLog_File", "N02_SerilLog_File\N02_SerilLog_File.csproj", "{B2825D85-2E4C-4912-870C-6E8C08DD4CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N02_SerilLog_File", "N02_SerilLog_File\N02_SerilLog_File.csproj", "{B2825D85-2E4C-4912-870C-6E8C08DD4CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N03_SeriLog_Filter", "N03_SeriLog_Filter\N03_SeriLog_Filter.csproj", "{07816D02-25AD-41E5-AA42-2AAB134B8F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N03_SeriLog_Filter", "N03_SeriLog_Filter\N03_SeriLog_Filter.csproj", "{07816D02-25AD-41E5-AA42-2AAB134B8F5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N04_SeriLog_Seq", "N04_SeriLog_Seq\N04_SeriLog_Seq.csproj", "{CCF44B47-7E03-4F90-92DD-30DAB93B698C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N05_SeriLog_Wpf", "N05_SeriLog_Wpf\N05_SeriLog_Wpf.csproj", "{F7AAA6BC-7B10-442B-AE61-AF8B42487961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N05_SeriLog_Wpf_Module", "N05_SeriLog_Wpf_Module\N05_SeriLog_Wpf_Module.csproj", "{A70C58FD-DADF-4F6F-86B2-7E2E335C99A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adb_LDPlayder", "Adb_LDPlayder\Adb_LDPlayder.csproj", "{3E3C7377-98B3-4A3D-9DF4-264882200031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N06_FileStream", "N06_FileStream\N06_FileStream.csproj", "{6AA414D0-5290-4999-8E45-A909797577DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07816D02-25AD-41E5-AA42-2AAB134B8F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF44B47-7E03-4F90-92DD-30DAB93B698C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF44B47-7E03-4F90-92DD-30DAB93B698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF44B47-7E03-4F90-92DD-30DAB93B698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF44B47-7E03-4F90-92DD-30DAB93B698C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AAA6BC-7B10-442B-AE61-AF8B42487961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AAA6BC-7B10-442B-AE61-AF8B42487961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AAA6BC-7B10-442B-AE61-AF8B42487961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AAA6BC-7B10-442B-AE61-AF8B42487961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70C58FD-DADF-4F6F-86B2-7E2E335C99A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70C58FD-DADF-4F6F-86B2-7E2E335C99A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70C58FD-DADF-4F6F-86B2-7E2E335C99A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70C58FD-DADF-4F6F-86B2-7E2E335C99A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3C7377-98B3-4A3D-9DF4-264882200031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3C7377-98B3-4A3D-9DF4-264882200031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3C7377-98B3-4A3D-9DF4-264882200031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3C7377-98B3-4A3D-9DF4-264882200031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA414D0-5290-4999-8E45-A909797577DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA414D0-5290-4999-8E45-A909797577DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA414D0-5290-4999-8E45-A909797577DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA414D0-5290-4999-8E45-A909797577DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
